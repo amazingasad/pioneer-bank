@@ -1,11 +1,12 @@
 body{
     padding: 100px;
+    text-align: center;
 }
 .input-field{
     margin: 20px 50px;
     padding:40px;
     border-radius: 20px;
-    box-shadow: 10px 10px 30px grey;
+    box-shadow: 3px 3px 20px 0px grey;
 }
 #transaction-area{
     display: none;
@@ -35,4 +36,20 @@ body{
     margin: 20px;
     padding: 20px;
     border-radius: 7px;
+}
+/* MEDIA QUERY */
+@media (max-width: 689px) {
+    body{
+        padding: 10px;
+    }
+    #login-area{
+        width: 80%;
+        margin: auto;
+    }
+    .input-field{
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        left: -50px;
+    }
 }

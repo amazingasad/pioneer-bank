@@ -12,6 +12,7 @@ loginButton.addEventListener("click", function(){
     }
     else{
         alert("You have entered wrong password")
+        loginArea.style.display = "block";
     }
 })
 // DEPOSIT BUTTON EVENT HANDLER
